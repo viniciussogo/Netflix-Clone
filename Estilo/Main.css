@@ -26,13 +26,10 @@ header .container{
     justify-content: space-between;
 }
 
-header .logo{
-    margin-left: 5px;
-    color: var(--vermelho);
-    font-family: "Kanit", times;
-    font-size: 40px;
+header .container img{
+    width: 300px;
+    padding: 5px;
 }
-
 header nav a{
     text-decoration: none;
     color: #aaa;
@@ -48,7 +45,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/Imagens/83-hoje-eu-quero-voltar-sozinho.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('Imagens/83-hoje-eu-quero-voltar-sozinho.jpg');
 
     height: 700px;
     background-size: cover;
@@ -71,6 +68,10 @@ header nav a:hover{
     margin-bottom: 10px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 
+}
+
+.carrosel-filmes .subtitulo1{
+    padding: 10px;
 }
 
 .botao{
@@ -99,4 +100,29 @@ header nav a:hover{
 .filme-principal .container{
     margin-left: 20px;
     width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    padding-top: 10px;
+}
+
+.container nav i{
+    margin-left: 20px;
+}
+
+.carrosel-filmes a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.carrosel-filmes a:hover{
+    color: rgb(185, 174, 174);
 }
